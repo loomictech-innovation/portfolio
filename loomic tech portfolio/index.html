@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loomic Tech Innovation — Innovating the Future with Technology</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo-mark">
+    <div class="logo-weave">
+      <svg viewBox="0 0 26 26" fill="none">
+        <line x1="4" y1="4" x2="22" y2="22" stroke="#3FE0FF" stroke-width="1.4"/>
+        <line x1="22" y1="4" x2="4" y2="22" stroke="#FFB238" stroke-width="1.4"/>
+        <line x1="13" y1="2" x2="13" y2="24" stroke="#3FE0FF" stroke-width="1"/>
+        <line x1="2" y1="13" x2="24" y2="13" stroke="#FFB238" stroke-width="1"/>
+        <circle cx="13" cy="13" r="2.6" fill="#0A0E1B" stroke="#E9ECF4" stroke-width="1"/>
+      </svg>
+    </div>
+    LOOMIC TECH
+  </div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#internship">Internship</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="padding-top:0;padding-bottom:0;">
+  <canvas id="loom-canvas"></canvas>
+  <div class="cube-stage">
+    <div class="cube" id="hero-cube">
+      <div class="cube-face cf-front"><span>AI · ML</span></div>
+      <div class="cube-face cf-back"><span>CLOUD</span></div>
+      <div class="cube-face cf-right"><span>DATA</span></div>
+      <div class="cube-face cf-left"><span>SECURITY</span></div>
+      <div class="cube-face cf-top"><span>WEB</span></div>
+      <div class="cube-face cf-bottom"><span>MOBILE</span></div>
+    </div>
+  </div>
+  <div class="hero-content">
+    <div class="eyebrow">Software · AI · Cloud · Data Science</div>
+    <h1>Weaving ideas into <span>intelligent technology</span> for tomorrow's businesses</h1>
+    <p class="lede">Loomic Tech Innovation designs, builds, and maintains modern software products for startups, enterprises, and educational institutions — turning digital transformation into daily practice.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Start a project</a>
+      <a href="#services" class="btn-ghost">Explore services →</a>
+    </div>
+  </div>
+  <div class="hero-meta">
+    <span class="mono">EST. LOOMIC TECH INNOVATION — 2026</span>
+    <div class="scroll-cue"><div class="scroll-line"></div><span class="mono">SCROLL</span></div>
+    <span class="mono">DHARMAPURI · TAMIL NADU · IN</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid reveal">
+    <div class="about-copy">
+      <span class="tag">01 — About Us</span>
+      <h2 style="font-size:clamp(1.8rem,3.4vw,2.5rem);font-weight:600;margin-bottom:24px;line-height:1.25;">A technology-driven company, built thread by thread</h2>
+      <p>Loomic Tech Innovation is a technology-driven software company dedicated to delivering innovative digital solutions for businesses, startups, educational institutions, and enterprises.</p>
+      <p>We specialize in designing, developing, and maintaining modern software products that help organizations improve productivity and accelerate digital transformation — delivered with innovation, reliability, and genuine customer satisfaction.</p>
+    </div>
+    <div class="fabric-swatch"><canvas id="fabric-canvas"></canvas></div>
+  </div>
+</section>
+
+<!-- VISION / MISSION -->
+<section id="vision" style="background:var(--bg-alt);">
+  <div class="section-head reveal">
+    <span class="tag">02 — Vision & Mission</span>
+    <h2>What we're weaving toward</h2>
+  </div>
+  <div class="vm-wrap reveal">
+    <div class="vm-card">
+      <h3>Our Vision</h3>
+      <p>To become one of the most trusted and innovative technology companies, delivering world-class software solutions that empower businesses to achieve sustainable growth and digital excellence — transforming ideas into impactful digital products, and nurturing the next generation of IT professionals.</p>
+    </div>
+    <div class="vm-card">
+      <h3>Our Mission</h3>
+      <ul>
+        <li>Reliable, scalable, secure solutions tailored to every business</li>
+        <li>Long-term partnerships built on trust and transparency</li>
+        <li>Empowering startups, SMEs & enterprises with modern tech</li>
+        <li>Investing in AI, Cloud, Data Science & Cyber Security</li>
+        <li>Practical internship programs bridging academia and industry</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-head reveal">
+    <span class="tag">03 — Our Services</span>
+    <h2>Sixteen disciplines, one connected practice</h2>
+    <p>From first sketch to production support — every thread of your product, covered.</p>
+  </div>
+  <div class="services-grid reveal" id="services-grid"></div>
+</section>
+
+<!-- INTERNSHIP -->
+<section id="internship" style="background:var(--bg-alt);">
+  <div class="section-head reveal">
+    <span class="tag">04 — Internship & Training</span>
+    <h2>Industry-oriented learning, not lecture-hall theory</h2>
+  </div>
+  <div class="intern-wrap reveal">
+    <div class="track-list" id="track-list"></div>
+    <div class="benefit-box">
+      <h3>What you walk away with</h3>
+      <div id="benefit-list"></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why">
+  <div class="section-head reveal">
+    <span class="tag">05 — Why Choose Us</span>
+    <h2>Nine reasons clients stay</h2>
+  </div>
+  <div class="why-grid reveal" id="why-grid"></div>
+</section>
+
+<!-- TECH STACK -->
+<section id="stack" style="background:var(--bg-alt);">
+  <div class="section-head reveal">
+    <span class="tag">06 — Technologies We Use</span>
+    <h2>Our working stack</h2>
+  </div>
+  <div class="stack-grid reveal" id="stack-grid"></div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="section-head reveal">
+    <span class="tag">07 — Development Process</span>
+    <h2>Seven stages, every project</h2>
+  </div>
+  <div class="timeline reveal" id="timeline"></div>
+</section>
+
+<!-- INDUSTRIES -->
+<section id="industries" style="background:var(--bg-alt);">
+  <div class="section-head reveal">
+    <span class="tag">08 — Industries We Serve</span>
+    <h2>Built for every sector's fabric</h2>
+  </div>
+  <div class="ind-grid reveal" id="ind-grid"></div>
+</section>
+
+<!-- COMMITMENT -->
+<section id="commitment">
+  <div class="section-head reveal">
+    <span class="tag">09 — Our Commitment</span>
+    <h2>What we deliver, without exception</h2>
+  </div>
+  <div class="commit-strip reveal" id="commit-strip"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap reveal">
+    <div>
+      <span class="tag">10 — Contact Us</span>
+      <p class="contact-big">Have a product to build?<br><a href="mailto:founder@loomictech.in">Let's start weaving it together.</a></p>
+    </div>
+    <div class="contact-details">
+      <div class="cd-row"><span class="label">Website</span><a href="https://www.loomictech.in" target="_blank" rel="noopener">www.loomictech.in</a></div>
+      <div class="cd-row"><span class="label">Email</span><a href="mailto:founder@loomictech.in">founder@loomictech.in</a></div>
+      <div class="cd-row"><span class="label">Phone</span><a href="tel:+918807129618">+91 88071 29618</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Loomic Tech Innovation. All rights reserved.</span>
+  <span class="mono">Innovating the Future with Technology</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
